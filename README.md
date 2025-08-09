@@ -37,6 +37,13 @@ vless://2ea73714-138e-4cc7-8cab-d7caf476d511@<hidden-node-domain>.railway.app:44
 
 ---
 
+## 极简版
+
+> **_worker.js_**: **167 行，5285 字节**  
+> **_index.js_**: **57 行，1966 字节**
+
+---
+
 ## 推荐工具
 
 ### Cloudflare
