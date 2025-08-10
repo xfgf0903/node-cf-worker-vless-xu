@@ -3,7 +3,7 @@
 `node-cf-worker-vless-xu` 是一个将 `_worker.js` 部署在 Cloudflare Worker 上，`index.js` 部署在 Node.js 环境中的项目。
 
 - `_worker.js` 仅保留核心部分。
-- `index.js` 可以运行在 Node.js 环境中（记得复制一份 `package.json`），还可以作为 `_worker.js` 的 `/proxyip=wss://`，直连需要 `uuid`，`proxyip` 不需要验证（属于公益性质）。
+- `index.js` 可以运行在 Node.js 环境中（记得复制一份 `package.json`），还可以作为 `_worker.js` 的 `/proxyip=wss://`，直连需要 `uuid`，`proxyip` 不需要验证（属于公益性质）。（proxyip都不要带 https://）
 
 ---
 
@@ -59,6 +59,7 @@ vless://2ea73714-138e-4cc7-8cab-d7caf476d511@<hidden-node-domain>.railway.app:44
 
 ## 推荐工具
 
+## 已经测试Cloudflare，node平台railway
 ### Cloudflare
 
 推荐使用 [Cloudflare Dashboard](https://dash.cloudflare.com/)。
@@ -86,7 +87,7 @@ vless://2ea73714-138e-4cc7-8cab-d7caf476d511@<hidden-node-domain>.railway.app:44
 - [Koyeb](https://www.koyeb.com)
 - [Northflank](https://northflank.com)
 
-#### 函数平台
+#### 函数平台（不行）
 
 - [Vercel](https://vercel.com)
 - [Netlify](https://www.netlify.com)
