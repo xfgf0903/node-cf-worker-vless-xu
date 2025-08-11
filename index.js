@@ -1,5 +1,5 @@
 const PORT = 443;
-const VALID_USER_IDS = (process.env.ID || '2ea73714-138e-4cc7-8cab-d7caf476d51b').split(',');
+const VALID_USER_IDS = (process.env.ID || 'ffdfcadc-2bb6-4189-ba2b-880aa8851d10').split(',');
 const configUserID = VALID_USER_IDS[0];
 
 function websocket() {
