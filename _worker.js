@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 
-const defaultUserIDs = '2ea73714-138e-4cc7-8cab-d7caf476d51b';
+const defaultUserIDs = 'ffdfcadc-2bb6-4189-ba2b-880aa8851d10';
 const proxyip = '';
 
 async function handleVlessProxy(request, env) {
